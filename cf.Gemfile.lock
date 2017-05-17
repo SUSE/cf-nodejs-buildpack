@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/SUSE/cf-machete
+  revision: c940e3a514a8656828fbb06a701f2cd00ed34fcb
+  tag: v0.0.66
+  specs:
+    machete (0.0.66)
+      childprocess
+      httparty
+
+GIT
   remote: https://github.com/cloudfoundry/buildpack-packager
   revision: 82f301072cbb1ab1275fc0fb00a18e4e2ca4ee29
   tag: v2.3.7
@@ -8,15 +17,6 @@ GIT
       kwalify (~> 0)
       terminal-table (~> 1.4)
 
-GIT
-  remote: https://github.com/cloudfoundry/machete
-  revision: c940e3a514a8656828fbb06a701f2cd00ed34fcb
-  tag: v0.0.66
-  specs:
-    machete (0.0.66)
-      childprocess
-      httparty
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -25,12 +25,12 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    childprocess (0.6.3)
+    childprocess (0.7.0)
       ffi (~> 1.0, >= 1.0.11)
     coderay (1.1.1)
     diff-lcs (1.2.5)
     ffi (1.9.18)
-    httparty (0.14.0)
+    httparty (0.15.3)
       multi_xml (>= 0.5.2)
     i18n (0.8.1)
     kwalify (0.7.2)
