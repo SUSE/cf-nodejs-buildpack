@@ -60,21 +60,15 @@ dependencies:
   md5: 09d53abca4f08cf63b9eb88b7175266f
   cf_stacks:
   - cflinuxfs2
-- name: node
-  version: 7.9.0
-  uri: https:///dependencies/node/node-7.9.0-linux-x64-e94d9a16.tgz
-  md5: e94d9a16270302c6a19574832a646331
-  cf_stacks:
-  - cflinuxfs2
-- name: node
-  version: 7.9.0
-  uri: https:///dependencies/node/node-7.9.0-linux-x64-b8b68297.tgz
-  md5: b8b682970714ebb35719c32aa8ce0ee9
-  cf_stacks:
-  - cflinuxfs2
 - name: yarn
   version: 0.24.6
   uri: https:///dependencies/yarn/yarn-v0.24.6-156eb82f.tar.gz
   md5: 156eb82fc7a7635bbc2738a9af936fc5
+  cf_stacks:
+  - cflinuxfs2
+- name: node
+  version: 7.9.0
+  uri: https:///dependencies/node/node-7.9.0-linux-x64-fcdd22b9.tgz
+  md5: fcdd22b94e07cd57a6a3ec8725d51c01
   cf_stacks:
   - cflinuxfs2
