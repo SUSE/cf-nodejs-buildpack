@@ -68,13 +68,7 @@ dependencies:
   - cflinuxfs2
 - name: node
   version: 7.9.0
-  uri: https:///dependencies/node/node-7.9.0-linux-x64-fcdd22b9.tgz
-  md5: fcdd22b94e07cd57a6a3ec8725d51c01
-  cf_stacks:
-  - cflinuxfs2
-- name: node
-  version: 7.9.0
-  uri: https:///dependencies/node/node-7.9.0-linux-x64-8a670752.tgz
-  md5: 8a670752a84de224d114fc0f23971b36
+  uri: https:///dependencies/node/node-7.9.0-linux-x64-c6fcd869.tgz
+  md5: c6fcd869b11a2ed2586ff0310d53a872
   cf_stacks:
   - cflinuxfs2
