@@ -62,13 +62,13 @@ dependencies:
   - cflinuxfs2
 - name: yarn
   version: 0.24.6
-  uri: https:///dependencies/yarn/yarn-v0.24.6-156eb82f.tar.gz
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/yarn/yarn-v0.24.6-156eb82f.tar.gz
   md5: 156eb82fc7a7635bbc2738a9af936fc5
   cf_stacks:
   - cflinuxfs2
 - name: node
   version: 7.9.0
-  uri: https:///dependencies/node/node-7.9.0-linux-x64-649c2653.tgz
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/node/node-7.9.0-linux-x64-649c2653.tgz
   md5: 649c2653559864bd686a115288b4c214
   cf_stacks:
   - opensuse42
