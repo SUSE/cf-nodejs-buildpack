@@ -72,3 +72,9 @@ dependencies:
   md5: ce1ba110493814628fa7f071dd996992
   cf_stacks:
   - opensuse42
+- name: node
+  version: 8.0.0
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/node/node-8.0.0-linux-x64-29586851.tgz
+  md5: 29586851fc4971dd1a9b6764e0a776ed
+  cf_stacks:
+  - opensuse42
