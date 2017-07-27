@@ -27,19 +27,64 @@ dependency_deprecation_dates:
   version_line: '4'
   name: node
   date: 2018-04-01
+  link: https://github.com/nodejs/LTS
 - match: 6\.\d+\.\d+
   version_line: '6'
   name: node
   date: 2019-04-18
+  link: https://github.com/nodejs/LTS
 - match: 7\.\d+\.\d+
   version_line: '7'
   name: node
   date: 2017-06-30
+  link: https://github.com/nodejs/LTS
 dependencies:
 - name: node
   version: 6.10.2
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-6.10.2-linux-x64-9f48b587.tgz
   md5: 9f48b58738d33e263789c30f9d1a044b
+  cf_stacks:
+  - cflinuxfs2
+- name: node
+  version: 4.8.2
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-4.8.2-linux-x64-09d53abc.tgz
+  md5: 09d53abca4f08cf63b9eb88b7175266f
+  cf_stacks:
+  - cflinuxfs2
+- name: node
+  version: 7.9.0
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-7.9.0-linux-x64-5d69c9a3.tgz
+  md5: 5d69c9a326c4eb6f83bbc1d8993b4fc1
+  cf_stacks:
+  - cflinuxfs2
+- name: node
+  version: 4.8.3
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-4.8.3-linux-x64-0622641b.tgz
+  md5: 0622641b64386fdfcaa82da4987a1105
+  cf_stacks:
+  - cflinuxfs2
+- name: node
+  version: 6.10.3
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-6.10.3-linux-x64-34d4554a.tgz
+  md5: 34d4554aed60809aa0d3df581c84d3a7
+  cf_stacks:
+  - cflinuxfs2
+- name: node
+  version: 7.10.0
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-7.10.0-linux-x64-a608be81.tgz
+  md5: a608be8101ca3523405f37fa4ace16bc
+  cf_stacks:
+  - cflinuxfs2
+- name: yarn
+  version: 0.24.6
+  uri: https://buildpacks.cloudfoundry.org/dependencies/yarn/yarn-v0.24.6-156eb82f.tar.gz
+  md5: 156eb82fc7a7635bbc2738a9af936fc5
+  cf_stacks:
+  - cflinuxfs2
+- name: node
+  version: 8.0.0
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-8.0.0-linux-x64-ade5a8e5.tgz
+  md5: ade5a8e572f779a2fa9e8cc1d0e873b7
   cf_stacks:
   - cflinuxfs2
 - name: yarn
@@ -52,6 +97,12 @@ dependencies:
   version: 7.9.0
   uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/node/node-7.9.0-linux-x64-649c2653.tgz
   md5: 649c2653559864bd686a115288b4c214
+  cf_stacks:
+  - opensuse42
+- name: node
+  version: 4.8.2
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/node/node-4.8.2-linux-x64-be83da03.tgz
+  md5: be83da03e164daf29c541e5f791fa4c4
   cf_stacks:
   - opensuse42
 - name: node
