@@ -89,37 +89,37 @@ dependencies:
   - cflinuxfs2
 - name: yarn
   version: 0.24.6
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/yarn/yarn-v0.24.6-156eb82f.tar.gz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/yarn/yarn-v0.24.6-156eb82f.tar.gz
   md5: 156eb82fc7a7635bbc2738a9af936fc5
   cf_stacks:
   - opensuse42
 - name: node
   version: 7.9.0
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/node/node-7.9.0-linux-x64-649c2653.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-7.9.0-linux-x64-649c2653.tgz
   md5: 649c2653559864bd686a115288b4c214
   cf_stacks:
   - opensuse42
 - name: node
   version: 4.8.2
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/node/node-4.8.2-linux-x64-be83da03.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-4.8.2-linux-x64-be83da03.tgz
   md5: be83da03e164daf29c541e5f791fa4c4
   cf_stacks:
   - opensuse42
 - name: node
   version: 6.10.2
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/node/node-6.10.2-linux-x64-ce1ba110.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-6.10.2-linux-x64-ce1ba110.tgz
   md5: ce1ba110493814628fa7f071dd996992
   cf_stacks:
   - opensuse42
 - name: node
   version: 8.0.0
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/node/node-8.0.0-linux-x64-29586851.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-8.0.0-linux-x64-29586851.tgz
   md5: 29586851fc4971dd1a9b6764e0a776ed
   cf_stacks:
   - opensuse42
 - name: node
   version: 4.8.3
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/node/node-4.8.3-linux-x64-465ababa.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-4.8.3-linux-x64-465ababa.tgz
   md5: 465ababa001368838e3b7c992df67710
   cf_stacks:
   - opensuse42
