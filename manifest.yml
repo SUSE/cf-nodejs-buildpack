@@ -52,12 +52,6 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
 - name: node
-  version: 7.9.0
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-7.9.0-linux-x64-5d69c9a3.tgz
-  md5: 5d69c9a326c4eb6f83bbc1d8993b4fc1
-  cf_stacks:
-  - cflinuxfs2
-- name: node
   version: 4.8.3
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-4.8.3-linux-x64-0622641b.tgz
   md5: 0622641b64386fdfcaa82da4987a1105
@@ -94,12 +88,6 @@ dependencies:
   cf_stacks:
   - opensuse42
 - name: node
-  version: 7.9.0
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-7.9.0-linux-x64-649c2653.tgz
-  md5: 649c2653559864bd686a115288b4c214
-  cf_stacks:
-  - opensuse42
-- name: node
   version: 4.8.2
   uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-4.8.2-linux-x64-be83da03.tgz
   md5: be83da03e164daf29c541e5f791fa4c4
@@ -123,3 +111,9 @@ dependencies:
   md5: 465ababa001368838e3b7c992df67710
   cf_stacks:
   - opensuse42
+- name: node
+  version: 7.9.0
+  uri: https:///dependencies/node/node-7.9.0-linux-x64-f4ecbd1c.tgz
+  md5: f4ecbd1c1fa6cd65d1c7500a2a3e6cd4
+  cf_stacks:
+  - cflinuxfs2
