@@ -8,7 +8,7 @@ import (
 
 	"bytes"
 
-	"github.com/cloudfoundry/libbuildpack"
+	"github.com/SUSE/cf-libbuildpack"
 	"github.com/golang/mock/gomock"
 
 	"nodejs/hooks"
@@ -248,7 +248,7 @@ var _ = Describe("dynatraceHook", func() {
 					"1": [{"name":"dynatrace-dupe","credentials":{"environmentid":"`+environmentid+`","apitoken":"`+apiToken+`"}}]
 				}`)
 			})
-			
+
 			It("does nothing and succeeds", func() {
 				err = dynatrace.AfterCompile(stager)
 				Expect(err).To(BeNil())

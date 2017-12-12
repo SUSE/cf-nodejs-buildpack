@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudfoundry/libbuildpack/bratshelper"
-	"github.com/cloudfoundry/libbuildpack/cutlass"
+	"github.com/SUSE/cf-libbuildpack/bratshelper"
+	"github.com/SUSE/cf-libbuildpack/cutlass"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

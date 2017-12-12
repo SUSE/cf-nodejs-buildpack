@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"os/exec"
 
-	"github.com/cloudfoundry/libbuildpack/cutlass"
+	"github.com/SUSE/cf-libbuildpack/cutlass"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

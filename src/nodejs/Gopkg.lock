@@ -8,16 +8,16 @@
   version = "v1.4.0"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/SUSE/cf-libbuildpack"
+  packages = [".","ansicleaner","bratshelper","cutlass"]
+  revision = "e4d44a80ae8647db88d3a94619c97d99b0b1d454"
+
+[[projects]]
   name = "github.com/blang/semver"
   packages = ["."]
   revision = "2ee87856327ba09384cabd113bc6b5d174e9ec0f"
   version = "v3.5.1"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/cloudfoundry/libbuildpack"
-  packages = [".","ansicleaner","bratshelper","cutlass","packager"]
-  revision = "ae83d424c6fb889f055b0936fbdb212c07131aa8"
 
 [[projects]]
   name = "github.com/elazarl/goproxy"
@@ -87,6 +87,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6fedf56cefce458b411585879b32503df654e952341debcd3d25401fa42b5fa9"
+  inputs-digest = "1d7219a0c1531a0ce99d32ce9998e71b178df519e6804f189484aad010ca71c9"
   solver-name = "gps-cdcl"
   solver-version = 1

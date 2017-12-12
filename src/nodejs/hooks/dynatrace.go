@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cloudfoundry/libbuildpack"
+	"github.com/SUSE/cf-libbuildpack"
 )
 
 type Command interface {
@@ -88,7 +88,7 @@ func (h DynatraceHook) AfterCompile(stager *libbuildpack.Stager) error {
 		h.Log.Error("Manifest handling failed!")
 		return err
 	}
-	
+
 	agentLibPath = filepath.Join(installDir, agentLibPath)
 
 	_, err = os.Stat(filepath.Join(stager.BuildDir(), agentLibPath))
@@ -227,7 +227,7 @@ func (h DynatraceHook) agentPath(installDir string) (string, error) {
 		return "", err
 	}
 
-	err = json.Unmarshal(raw, &manifest) 
+	err = json.Unmarshal(raw, &manifest)
 	if err != nil {
 		return "", err
 	}

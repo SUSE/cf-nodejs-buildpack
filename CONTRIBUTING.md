@@ -10,7 +10,7 @@ If you are confident that you're covered under a Corporate CLA, please make sure
 
 ## Run the tests
 
-See the [Cutlass](https://github.com/cloudfoundry/libbuildpack/cutlass) CF buildpack test framework for more information.
+See the [Cutlass](https://github.com/SUSE/cf-libbuildpack/cutlass) CF buildpack test framework for more information.
 
 ## Pull Requests
 

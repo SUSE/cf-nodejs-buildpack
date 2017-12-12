@@ -11,7 +11,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudfoundry/libbuildpack"
+	"github.com/SUSE/cf-libbuildpack"
 )
 
 func main() {

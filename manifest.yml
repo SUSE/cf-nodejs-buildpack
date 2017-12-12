@@ -109,4 +109,136 @@ dependencies:
   sha256: 62761a5871a8685fb8e624f079491552715b232cf1e774841146a3ef76c4065d
   cf_stacks:
   - cflinuxfs2
+- name: node
+  version: 4.8.5
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-4.8.5-linux-x64-abf71caf.tgz
+  cf_stacks:
+  - opensuse42
+  sha256: 8c897c502e2a72a55f82074324dcea4b9fee09734d7e8864d1e5f7c4247a6c35
+- name: node
+  version: 6.11.5
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-6.11.5-linux-x64-43c6de27.tgz
+  cf_stacks:
+  - opensuse42
+  sha256: f888230e7205ed9bbef1165d99cbf654a260289fa8856e27b67ad322f3d3119e
+- name: node
+  version: 7.10.0
+  uri: https://cf-opensusefs2.s3.amazonaws.com/dependencies/node/node-7.10.0-linux-x64-682e549c.tgz
+  sha256: 8af36549777ec84b927074871d3ddda6502f55b8b14dc5c40ce2ec33a597a3a4
+  cf_stacks:
+  - opensuse42
+- name: node
+  version: 7.10.1
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-7.10.1-linux-x64-1f9aa636.tgz
+  cf_stacks:
+  - opensuse42
+  sha256: 83e37a9d3b2e390a95c6a06ca7f4dc9710a5fb4a081498b414f22c6da1f9ba07
+- name: node
+  version: 8.9.0
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-8.9.0-linux-x64-11e03e50.tgz
+  sha256: 3aea91b352d47b936f5c59d634c649bfd38025a0aa9f223f24b27f3ceb367eb5
+  cf_stacks:
+  - opensuse42
+- name: yarn
+  version: 1.2.1
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/yarn/yarn-v1.2.1-a16106e2.tar.gz
+  cf_stacks:
+  - opensuse42
+  sha256: f8ed07675c3a0b866e11a02af5c15d2f34c3aa261ab1501943ecee328786c959
+- name: node
+  version: 6.12.0
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-6.12.0-linux-x64-36a1e8e4.tgz
+  sha256: c2398c6e012869c5be1b34f5d38cc918fc5edc86958c3c3e892bd76f1c4d106a
+  cf_stacks:
+  - opensuse42
+- name: node
+  version: 4.8.6
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-4.8.6-linux-x64-29b3d3b6.tgz
+  sha256: dd9e0340de796f239ab4e4ce3338cfc1d3117063aa85745f4934845f96275569
+  cf_stacks:
+  - opensuse42
+- name: node
+  version: 9.1.0
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-9.1.0-linux-x64-feab02a8.tgz
+  sha256: 117d0368274bbda3d6f489582d23f889b755cc834333c0f55e5116986223a61c
+  cf_stacks:
+  - opensuse42
+- name: node
+  version: 8.9.1
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-8.9.1-linux-x64-07807550.tgz
+  sha256: dcc7765e39099f917d0f37c34749f1cbe12bf8ca231ec93c7ddd6da3eefaf936
+  cf_stacks:
+  - opensuse42
+- name: node
+  version: 9.2.0
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/node/node-9.2.0-linux-x64-a0e306f9.tgz
+  sha256: ad0f102e0e6cc12787a475d116df3c24fca24a00da7baae733bf8fb16b68600e
+  cf_stacks:
+  - opensuse42
+- name: node
+  version: 4.8.5
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/node/node-4.8.5-linux-x64-102c3cfc.tgz
+  cf_stacks:
+  - sle12
+  sha256: ca42797d3174c952781e6bb898495e6eb6f10e0ee5e7f418dccac51d98011a57
+- name: node
+  version: 6.11.5
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/node/node-6.11.5-linux-x64-aa423602.tgz
+  cf_stacks:
+  - sle12
+  sha256: a54edf0c6a65cdf6b8f2bbd07c58cf47ce31e09b212286024ebdcf9fb7fd396f
+- name: node
+  version: 7.10.0
+  uri: https://cf-sle12.s3.amazonaws.com/dependencies/node/node-7.10.0-linux-x64-55e4f5a4.tgz
+  cf_stacks:
+  - sle12
+  sha256: 8898da12c5e4c7ae45e0ed40237fb6cd08bcc849e9cf03168a83721dd8e143f6
+- name: node
+  version: 7.10.1
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/node/node-7.10.1-linux-x64-2323c15c.tgz
+  cf_stacks:
+  - sle12
+  sha256: b6022c0725b4b993beeefdfc28991a46a4c2dadc4e7a6f1a8e16b7a019cc466e
+- name: node
+  version: 8.9.0
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/node/node-8.9.0-linux-x64-c45e53f9.tgz
+  sha256: 5592acb2c5e30f3381ed68a4a44c919053cb57fd4c2631b6250078d0f4aaf7a8
+  cf_stacks:
+  - sle12
+- name: yarn
+  version: 1.2.1
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/yarn/yarn-v1.2.1-a16106e2.tar.gz
+  cf_stacks:
+  - sle12
+  sha256: f8ed07675c3a0b866e11a02af5c15d2f34c3aa261ab1501943ecee328786c959
+- name: node
+  version: 6.12.0
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/node/node-6.12.0-linux-x64-c9fdde4c.tgz
+  sha256: ff8a96a4e8cc5d9b854e78f533bc2d62cf296fdde58ee98844170a91555857f3
+  cf_stacks:
+  - sle12
+- name: node
+  version: 4.8.6
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/node/node-4.8.6-linux-x64-49e516b5.tgz
+  sha256: 1ba373fcfb249c0dc228aae1081233c8575e86b349a17cd3be6e82966e0f6b2f
+  cf_stacks:
+  - sle12
+- name: node
+  version: 9.1.0
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/node/node-9.1.0-linux-x64-2b5e7426.tgz
+  sha256: f212fffca3cace37030748be8e5bef3e718cfad74f4589a0dd00986bd6648928
+  cf_stacks:
+  - sle12
+- name: node
+  version: 8.9.1
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/node/node-8.9.1-linux-x64-8d66dddf.tgz
+  sha256: 6519a2c05118bf60711f5e0e288dd3219b3fdedd13d8383a14d4673bdebd0341
+  cf_stacks:
+  - sle12
+- name: node
+  version: 9.2.0
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/node/node-9.2.0-linux-x64-b3a9523f.tgz
+  sha256: 9aef1d94d2e6cbd1f67ba2265df7155b44ba5529baaabf2770a3c3c97dbcf3a4
+  cf_stacks:
+  - sle12
 pre_package: scripts/build.sh
