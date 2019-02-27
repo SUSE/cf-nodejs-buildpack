@@ -8,3 +8,4 @@ nodejs:
     cf_stacks:
     - cflinuxfs2
     - sle15
+    - sle12

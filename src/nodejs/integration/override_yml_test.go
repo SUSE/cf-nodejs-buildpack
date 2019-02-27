@@ -42,6 +42,6 @@ var _ = Describe("override yml", func() {
 
 		Eventually(app.Stdout.String).Should(ContainSubstring("-----> Installing node"))
 		Eventually(app.Stdout.String).Should(MatchRegexp("Copy .*/node.tgz"))
-		Eventually(app.Stdout.String).Should(ContainSubstring("Unable to install node: dependency sha256 mismatch: expected sha256 062d906c87839d03b243e2821e10653c89b4c92878bfe2bf995dec231e117bfc, actual sha256 b56b58ac21f9f42d032e1e4b8bf8b8823e69af5411caa15aee2b140bc756962f"))
+		Eventually(app.Stdout.String).Should(ContainSubstring("Unable to install node: dependency sha256 mismatch: expected sha256"))
 	})
 })
