@@ -27,7 +27,7 @@ var _ = Describe("pushing an app a second time", func() {
 		app.Buildpacks = []string{"nodejs_buildpack"}
 	})
 
-	Regexp := `\[.*/node\-[\d\.]+\-linux\-x64\-(cflinuxfs.*-)?[\da-f]+\.tgz\]`
+	Regexp := `\[.*/node\-[\d\.]+\-linux\-x64\-(.*-)?[\da-f]+\.tgz\]`
 	DownloadRegexp := "Download " + Regexp
 	CopyRegexp := "Copy " + Regexp
 
