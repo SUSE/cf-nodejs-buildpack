@@ -100,7 +100,7 @@ var _ = Describe("CF NodeJS Buildpack", func() {
 			By("set up a service broker", func() {
 				serviceBrokerApp = cutlass.New(Fixtures("fake_appdynamics_service_broker"))
 				serviceBrokerApp.Buildpacks = []string{
-					"https://github.com/cloudfoundry/ruby-buildpack#master",
+					"https://github.com/suse/cf-ruby-buildpack#master",
 				}
 				serviceBrokerApp.SetEnv("OFFERING_NAME", serviceOffering)
 				Expect(serviceBrokerApp.Push()).To(Succeed())
