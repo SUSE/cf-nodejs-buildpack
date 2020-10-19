@@ -30,12 +30,12 @@ var _ = Describe("override yml", func() {
 		Expect(cutlass.CreateOrUpdateBuildpack(buildpackName, Fixtures("overrideyml_bp"), "")).To(Succeed())
 
 		app = cutlass.New(Fixtures("simple_app"))
-		app.Buildpacks = []string{buildpackName + "_buildpack", "nodejs_buildpack"}
+		app.Buildpacks = []string{buildpackName + "_buildpack", "https://github.com/SUSE/cf-nodejs-buildpack#master"}
 	})
 
 	It("Forces node from override buildpack", func() {
 		Expect(app.V3Push()).ToNot(Succeed())
-		Eventually(func() error { return app.ConfirmBuildpack(buildpackVersion) }, "30s").Should(Succeed())
+		//Eventually(func() error { return app.ConfirmBuildpack(buildpackVersion) }, "30s").Should(Succeed())
 		Eventually(app.Stdout.String).Should(ContainSubstring("-----> OverrideYML Buildpack"))
 
 		Eventually(app.Stdout.String).Should(ContainSubstring("-----> Installing node"))
