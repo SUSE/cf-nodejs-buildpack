@@ -1,8 +1,118 @@
----
-language: nodejs
 default_versions:
 - name: node
   version: 10.x
+dependencies:
+- cf_stacks:
+  - cflinuxfs3
+  name: node
+  sha256: 43616969dd39d52c9d3c0a4ed5e66600133356877ab8344a916638e7f5794490
+  source: https://nodejs.org/dist/v10.22.0/node-v10.22.0.tar.gz
+  source_sha256: 8a77f883a9cba5451cef547f737e590a32c9840a4ab421a048f2fadda799ba41
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_10.22.0_linux_x64_cflinuxfs3_43616969.tgz
+  version: 10.22.0
+- cf_stacks:
+  - cflinuxfs3
+  name: node
+  sha256: d84ec1b77780923f2d0d30f9155dfcba411c67ae53548684a140b2ec982fdeba
+  source: https://nodejs.org/dist/v10.22.1/node-v10.22.1.tar.gz
+  source_sha256: d0b49dd96ac70e99240458863efe09ae5bb1138c0ff582295f882c1482708172
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_10.22.1_linux_x64_cflinuxfs3_d84ec1b7.tgz
+  version: 10.22.1
+- cf_stacks:
+  - cflinuxfs3
+  name: node
+  sha256: 2c0046f5d0bdccf7738ba6b5e3f1084a866ff4a92c5a3f3e820b3fd8e2101fbc
+  source: https://nodejs.org/dist/v12.18.4/node-v12.18.4.tar.gz
+  source_sha256: a802d87e579e46fc52771ed6f2667048320caca867be3276f4c4f1bbb41389c3
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_12.18.4_linux_x64_cflinuxfs3_2c0046f5.tgz
+  version: 12.18.4
+- cf_stacks:
+  - cflinuxfs3
+  name: node
+  sha256: 03ab83e564d3cfc824e6cb1c8f167d063056f907adfe90a4d7ff7033c7186e99
+  source: https://nodejs.org/dist/v12.19.0/node-v12.19.0.tar.gz
+  source_sha256: 1279e49be60d92cf4c1a48c9d92397db4e9284a100bc47689ce7924686bbddd1
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_12.19.0_linux_x64_cflinuxfs3_03ab83e5.tgz
+  version: 12.19.0
+- cf_stacks:
+  - cflinuxfs3
+  name: node
+  sha256: f6fd410294980c039f2280c3db94793d899921ae5a08f9e1aa79cf5eb55384b4
+  source: https://nodejs.org/dist/v14.13.1/node-v14.13.1.tar.gz
+  source_sha256: f0080d3284ea1585e255a3f459ce151e8106a33f4ce8bed0da15ff99c6a082a5
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_14.13.1_linux_x64_cflinuxfs3_f6fd4102.tgz
+  version: 14.13.1
+- cf_stacks:
+  - cflinuxfs3
+  name: node
+  sha256: 4ac6c1ed28061e978d97a6bf5e440ac218ab55a89d8df39b73d39dba087b910a
+  source: https://nodejs.org/dist/v14.14.0/node-v14.14.0.tar.gz
+  source_sha256: afb0b401d62d9fcfc68258f50d0bf042998d349ce9c1d7a2d45dd87870b3aab7
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_14.14.0_linux_x64_cflinuxfs3_4ac6c1ed.tgz
+  version: 14.14.0
+- cf_stacks:
+  - cflinuxfs3
+  name: yarn
+  sha256: 0057c1c90c3eadc953cc3e6772fd1477179d30a7007ac46ca148dd7bfab1d188
+  source: https://github.com/yarnpkg/yarn/releases/download/v1.22.10/yarn-v1.22.10.tar.gz
+  source_sha256: 7e433d4a77e2c79e6a7ae4866782608a8e8bcad3ec6783580577c59538381a6e
+  uri: https://buildpacks.cloudfoundry.org/dependencies/yarn/yarn_1.22.10_linux_noarch_any-stack_0057c1c9.tgz
+  version: 1.22.10
+- cf_stacks:
+  - sle15
+  name: node
+  sha256: 8a2bfd001daf276275988a680885fc15edc9fb961e4c3404886d743a21d2a801
+  uri: https://cf-buildpacks.suse.com/dependencies/node/node-10.22.0-linux-x64-sle15-8a2bfd00.tgz
+  version: 10.22.0
+- cf_stacks:
+  - sle15
+  name: node
+  sha256: ab0bfcdd81d6ec79dc282c514b4f9711f8ec37ff2fd0207092b448b584c29c75
+  uri: https://cf-buildpacks.suse.com/dependencies/node/node-10.22.1-linux-x64-sle15-ab0bfcdd.tgz
+  version: 10.22.1
+- cf_stacks:
+  - sle15
+  name: node
+  sha256: 7c71d00610c98f2d66b9eaf70e4a4a1fb944abb1ce23b2daa055f874b7acf8a2
+  uri: https://cf-buildpacks.suse.com/dependencies/node/node-12.18.4-linux-x64-sle15-7c71d006.tgz
+  version: 12.18.4
+- cf_stacks:
+  - sle15
+  name: node
+  sha256: d776f119b4b33df82c907d3953fea59a394e8e425e733c6ec0fc9482d74740ca
+  uri: https://cf-buildpacks.suse.com/dependencies/node/node-12.19.0-linux-x64-sle15-d776f119.tgz
+  version: 12.19.0
+- cf_stacks:
+  - sle15
+  name: node
+  sha256: 3f51b32b670e2d7ebd1201ded2b2becd6c5d479e4bd960451169305f66aeedc0
+  uri: https://cf-buildpacks.suse.com/dependencies/node/node-14.13.1-linux-x64-sle15-3f51b32b.tgz
+  version: 14.13.1
+- cf_stacks:
+  - sle15
+  name: node
+  sha256: 6961cffc048264ff47e74a31f516b175b9e2ff1dc853734ea5d3734999583142
+  uri: https://cf-buildpacks.suse.com/dependencies/node/node-14.14.0-linux-x64-sle15-6961cffc.tgz
+  version: 14.14.0
+- cf_stacks:
+  - sle15
+  name: yarn
+  sha256: 62cab0767c56b9081764995f9b2a8a7968e4ad065ac1ee9895c8dde285a79e61
+  uri: https://cf-buildpacks.suse.com/dependencies/yarn/yarn-1.22.10-62cab076.tar.gz
+  version: 1.22.10
+dependency_deprecation_dates:
+- date: "2021-04-01"
+  link: https://github.com/nodejs/Release
+  name: node
+  version_line: 10.x.x
+- date: "2022-04-01"
+  link: https://github.com/nodejs/Release
+  name: node
+  version_line: 12.x.x
+- date: "2023-04-30"
+  link: https://github.com/nodejs/Release
+  name: node
+  version_line: 14.x.x
 include_files:
 - CHANGELOG
 - CONTRIBUTING.md
@@ -21,74 +131,5 @@ include_files:
 - profile/appdynamics-setup.rb
 - profile/newrelic-setup.sh
 - profile/nodejs.sh
-dependency_deprecation_dates:
-- version_line: 10.x.x
-  name: node
-  date: 2021-04-01
-  link: https://github.com/nodejs/Release
-- version_line: 12.x.x
-  name: node
-  date: 2022-04-01
-  link: https://github.com/nodejs/Release
-- version_line: 14.x.x
-  name: node
-  date: 2023-04-30
-  link: https://github.com/nodejs/Release
-dependencies:
-- name: node
-  version: 10.22.0
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_10.22.0_linux_x64_cflinuxfs3_43616969.tgz
-  sha256: 43616969dd39d52c9d3c0a4ed5e66600133356877ab8344a916638e7f5794490
-  cf_stacks:
-  - cflinuxfs3
-  source: https://nodejs.org/dist/v10.22.0/node-v10.22.0.tar.gz
-  source_sha256: 8a77f883a9cba5451cef547f737e590a32c9840a4ab421a048f2fadda799ba41
-- name: node
-  version: 10.22.1
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_10.22.1_linux_x64_cflinuxfs3_d84ec1b7.tgz
-  sha256: d84ec1b77780923f2d0d30f9155dfcba411c67ae53548684a140b2ec982fdeba
-  cf_stacks:
-  - cflinuxfs3
-  source: https://nodejs.org/dist/v10.22.1/node-v10.22.1.tar.gz
-  source_sha256: d0b49dd96ac70e99240458863efe09ae5bb1138c0ff582295f882c1482708172
-- name: node
-  version: 12.18.4
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_12.18.4_linux_x64_cflinuxfs3_2c0046f5.tgz
-  sha256: 2c0046f5d0bdccf7738ba6b5e3f1084a866ff4a92c5a3f3e820b3fd8e2101fbc
-  cf_stacks:
-  - cflinuxfs3
-  source: https://nodejs.org/dist/v12.18.4/node-v12.18.4.tar.gz
-  source_sha256: a802d87e579e46fc52771ed6f2667048320caca867be3276f4c4f1bbb41389c3
-- name: node
-  version: 12.19.0
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_12.19.0_linux_x64_cflinuxfs3_03ab83e5.tgz
-  sha256: 03ab83e564d3cfc824e6cb1c8f167d063056f907adfe90a4d7ff7033c7186e99
-  cf_stacks:
-  - cflinuxfs3
-  source: https://nodejs.org/dist/v12.19.0/node-v12.19.0.tar.gz
-  source_sha256: 1279e49be60d92cf4c1a48c9d92397db4e9284a100bc47689ce7924686bbddd1
-- name: node
-  version: 14.13.1
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_14.13.1_linux_x64_cflinuxfs3_f6fd4102.tgz
-  sha256: f6fd410294980c039f2280c3db94793d899921ae5a08f9e1aa79cf5eb55384b4
-  cf_stacks:
-  - cflinuxfs3
-  source: https://nodejs.org/dist/v14.13.1/node-v14.13.1.tar.gz
-  source_sha256: f0080d3284ea1585e255a3f459ce151e8106a33f4ce8bed0da15ff99c6a082a5
-- name: node
-  version: 14.14.0
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node_14.14.0_linux_x64_cflinuxfs3_4ac6c1ed.tgz
-  sha256: 4ac6c1ed28061e978d97a6bf5e440ac218ab55a89d8df39b73d39dba087b910a
-  cf_stacks:
-  - cflinuxfs3
-  source: https://nodejs.org/dist/v14.14.0/node-v14.14.0.tar.gz
-  source_sha256: afb0b401d62d9fcfc68258f50d0bf042998d349ce9c1d7a2d45dd87870b3aab7
-- name: yarn
-  version: 1.22.10
-  uri: https://buildpacks.cloudfoundry.org/dependencies/yarn/yarn_1.22.10_linux_noarch_any-stack_0057c1c9.tgz
-  sha256: 0057c1c90c3eadc953cc3e6772fd1477179d30a7007ac46ca148dd7bfab1d188
-  cf_stacks:
-  - cflinuxfs3
-  source: https://github.com/yarnpkg/yarn/releases/download/v1.22.10/yarn-v1.22.10.tar.gz
-  source_sha256: 7e433d4a77e2c79e6a7ae4866782608a8e8bcad3ec6783580577c59538381a6e
+language: nodejs
 pre_package: scripts/build.sh
