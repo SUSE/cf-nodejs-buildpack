@@ -20,7 +20,13 @@ var _ = Describe("CF NodeJS Buildpack", func() {
 	)
 
 	BeforeEach(func() {
+		Skip("Skip dynatrace tests")
 		dynatraceAPI = cutlass.New(Fixtures("fake_dynatrace_api"))
+		dynatraceAPI.Buildpacks = []string{
+			"https://github.com/suse/cf-go-buildpack#master",
+			"nodejs_buildpack",
+		}
+
 		dynatraceAPI.SetEnv("BP_DEBUG", "true")
 
 		Expect(dynatraceAPI.Push()).To(Succeed())
