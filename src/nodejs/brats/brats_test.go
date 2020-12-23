@@ -8,7 +8,8 @@ import (
 )
 
 var _ = Describe("Nodejs buildpack", func() {
-	bratshelper.UnbuiltBuildpack("node", CopyBrats)
+	//Disable buildpack creation test for now because it is cflinuxfs3 specific
+	//bratshelper.UnbuiltBuildpack("node", CopyBrats)
 	bratshelper.DeployingAnAppWithAnUpdatedVersionOfTheSameBuildpack(CopyBrats)
 	bratshelper.StagingWithBuildpackThatSetsEOL("node", CopyBrats)
 	bratshelper.StagingWithCustomBuildpackWithCredentialsInDependencies(CopyBrats)
